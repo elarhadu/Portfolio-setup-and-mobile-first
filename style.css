@@ -43,12 +43,6 @@ p {
 }
 
 .contact-me {
-  box-sizing: border-box;
-  background: #1a2236;
-  position: absolute;
-  width: 288px;
-  height: 50px;
-  top: 390px;
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -57,9 +51,26 @@ p {
   text-align: center;
   color: #fff;
   display: block;
+}
+button {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 390px;
+  background: #1a2236;
+  border: none;
+  padding: 15px 32px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
   margin-left: 40px;
   margin-right: 60px;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .arts {
