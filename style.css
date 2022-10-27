@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  height: 74px;
+  height: 568px;
+}
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  position: absolute;
+  width: 288px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  margin: 10px;
+}
+
+p {
+  position: absolute;
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 224px;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  align-items: center;
+}
+
+.contact-me {
+  box-sizing: border-box;
+  background: #1a2236;
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  top: 390px;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-top: 15px;
+}
+
+.arts {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 472px;
+  margin-top: auto;
+}
+
+.about-me {
+  width: 75%;
+  margin: auto;
+}
